@@ -1,26 +1,26 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-html {
-  scroll-behavior: smooth;
-}
+  html {
+    scroll-behavior: smooth;
+  }
 
-body {
-  font-family:
-    Inter,
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    sans-serif;
+  body {
+      font-family:
+      Inter,
+      -apple-system,
+      BlinkMacSystemFont,
+      "Segoe UI",
+      sans-serif;
 
-  background: #0b0f19;
-  color: #f5f7fb;
+    background: #0b0f19;
+    color: #f5f7fb;
 
-  line-height: 1.6;
-}
+    line-height: 1.6;
+  }                 
 
 a {
   color: inherit;
@@ -231,6 +231,13 @@ nav a:hover {
   border: 1px solid #252d3d;
 
   border-radius: 10px;
+
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-4px);
+  border-color: #6ea8fe;
 }
 
 .service-number {
@@ -331,28 +338,44 @@ nav a:hover {
   padding: 35px;
 
   text-align: center;
+}.architecture {
+  padding: 35px;
+  text-align: center;
 }
 
 .architecture-item {
   padding: 15px;
-
   background: #131b2a;
-
   border: 1px solid #293246;
-
   border-radius: 6px;
 }
 
 .arrow {
   color: #6ea8fe;
-
   padding: 8px;
+  font-size: 1.2rem;
+}
+
+.architecture-deployment {
+  margin-top: 30px;
+  padding-top: 25px;
+
+  border-top: 1px dashed #293246;
+}
+
+.deployment-label {
+  margin-bottom: 12px;
+
+  color: #6ea8fe;
+
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
 }
 
 .architecture-item.docker {
-  margin-top: 20px;
-
   border-color: #6ea8fe;
+  background: #101a2c;
 }
 
 
@@ -443,8 +466,9 @@ footer {
   }
 
   .hero h1 {
+    font-size: clamp(3rem, 16vw, 5rem);
     letter-spacing: -3px;
-  }
+  } 
 
   .services-grid {
     grid-template-columns: 1fr;
@@ -493,5 +517,6 @@ footer {
     color: #7f899b;
     font-size: 0.85rem;
   }
+
 
 }

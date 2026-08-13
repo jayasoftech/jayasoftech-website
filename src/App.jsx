@@ -39,10 +39,10 @@ function App() {
           </h1>
 
           <p className="hero-text">
-             Your application is broken, slow, or difficult to deploy?
-              JayaSoft helps businesses build and troubleshoot
-              web applications using Spring Boot, React, PostgreSQL,
-              and Docker.
+            Need a business application built, an existing system fixed,
+            or your application deployed properly? JayaSoft provides
+            practical software development and technical troubleshooting
+            using Spring Boot, React, PostgreSQL, and Docker.
           </p>
 
           <div className="hero-buttons">
@@ -127,9 +127,10 @@ function App() {
             </h2>
 
             <p>
-              A full-stack business application designed to manage
-              operational transactions, financial workflows,
-              master data, and system administration.
+              A full-stack business management application designed to
+              support operational transactions, financial workflows,
+              master data, user authorization, audit tracking, and
+              system administration.
             </p>
 
           </div>
@@ -235,12 +236,16 @@ function App() {
                   PostgreSQL
                 </div>
 
-                <div className="arrow">
-                  ↓
-                </div>
+                <div className="architecture-deployment">
 
-                <div className="architecture-item docker">
-                  Docker
+                  <div className="deployment-label">
+                    CONTAINERIZED DEPLOYMENT
+                  </div>
+
+                  <div className="architecture-item docker">
+                    Docker
+                  </div>
+
                 </div>
 
               </div>
@@ -348,7 +353,7 @@ function App() {
           <div className="contact-actions">
 
             <a
-              href="mailto:contact@jayasoftech.com"
+              href="mailto:jayasoftdigital9@gmail.com"
               className="btn primary"
             >
               Email JayaSoft
