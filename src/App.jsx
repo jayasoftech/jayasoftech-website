@@ -5,15 +5,25 @@ function App() {
     <div className="app">
 
    {/* NAVBAR */}
-  <header className="navbar">
+    <header className="navbar">
 
-    <div className="container nav-container">
+      <div className="container nav-container">
 
-      <div className="logo">
-        Jaya<span>Soft</span>
+        <div className="logo">
+          Jaya<span>Soft</span>
+        </div>
+
+        <nav className="desktop-nav">
+          <a href="#services">Services</a>
+          <a href="#process">Process</a>
+          <a href="#project">Project</a>
+          <a href="#technology">Technology</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
       </div>
 
-      <nav className="desktop-nav">
+      <nav className="mobile-nav">
         <a href="#services">Services</a>
         <a href="#process">Process</a>
         <a href="#project">Project</a>
@@ -21,17 +31,7 @@ function App() {
         <a href="#contact">Contact</a>
       </nav>
 
-    </div>
-
-    <nav className="mobile-nav">
-      <a href="#services">Services</a>
-      <a href="#process">Process</a>
-      <a href="#project">Project</a>
-      <a href="#technology">Technology</a>
-      <a href="#contact">Contact</a>
-    </nav>
-
-  </header>
+    </header>
 
       {/* HERO */}
       <section className="hero">
