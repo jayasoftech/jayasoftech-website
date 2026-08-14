@@ -34,9 +34,9 @@ function App() {
           </p>
 
           <h1>
-            Build.
-            <span> Fix.</span>
-            Deploy.
+            <span className="hero-word">Build.</span>
+            <span className="hero-word accent">Fix.</span>
+            <span className="hero-word">Deploy.</span>
           </h1>
 
           <p className="hero-text">
