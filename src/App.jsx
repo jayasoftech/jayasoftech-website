@@ -14,6 +14,7 @@ function App() {
 
           <nav>
             <a href="#services">Services</a>
+            <a href="#process">Process</a>
             <a href="#project">Project</a>
             <a href="#technology">Technology</a>
             <a href="#contact">Contact</a>
@@ -110,6 +111,71 @@ function App() {
 
       </section>
 
+      {/* HOW WE WORK */}
+      <section id="process" className="section">
+
+        <div className="container">
+
+          <div className="section-heading">
+
+            <p className="eyebrow">
+              HOW WE WORK
+            </p>
+
+            <h2>
+              From problem to practical solution
+            </h2>
+
+            <p>
+              A straightforward approach to building, fixing,
+              and deploying business applications.
+            </p>
+
+          </div>
+
+          <div className="process-grid">
+
+            <div className="process-card">
+              <span>01</span>
+              <h3>Understand</h3>
+              <p>
+                We discuss your business problem, requirements,
+                or existing application.
+              </p>
+            </div>
+
+            <div className="process-card">
+              <span>02</span>
+              <h3>Diagnose</h3>
+              <p>
+                We investigate the technical issue and identify
+                the most practical solution.
+              </p>
+            </div>
+
+            <div className="process-card">
+              <span>03</span>
+              <h3>Build / Fix</h3>
+              <p>
+                We implement the solution, test the application,
+                and make sure the workflow works as expected.
+              </p>
+            </div>
+
+            <div className="process-card">
+              <span>04</span>
+              <h3>Deploy</h3>
+              <p>
+                We help prepare the application for deployment
+                and actual business use.
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
 
       {/* PROJECT */}
       <section id="project" className="section project-section">
