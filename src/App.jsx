@@ -186,6 +186,65 @@ function App() {
 
       </section>
 
+      {/* QUICK TECHNICAL HELP */}
+      <section id="quick-help" className="section quick-help-section">
+
+        <div className="container">
+
+          <div className="section-heading">
+
+            <p className="eyebrow">
+              NEED HELP NOW?
+            </p>
+
+            <h2>
+              Stuck on a technical problem?
+            </h2>
+
+            <p>
+              Send us your error, logs, or technical problem.
+              JayaSoft can help diagnose the issue and determine
+              the most practical solution.
+            </p>
+
+          </div>
+
+          <div className="quick-help-card">
+            <h3>
+              Technical Problem Diagnosis
+            </h3>
+
+            <p>
+              Send us your error message, log, screenshot, or describe
+              the problem you are experiencing.
+            </p>
+
+           <ul className="quick-help-features">
+              <li>Spring Boot / Java errors</li>
+              <li>React.js problems</li>
+              <li>PostgreSQL / SQL issues</li>
+              <li>Hibernate / JPA errors</li>
+              <li>REST API problems</li>
+              <li>Docker deployment issues</li>
+            </ul>
+
+            <div className="quick-help-price">
+              Starting from Rp150.000
+            </div>
+
+            <a
+              href="mailto:jayasoftdigital9@gmail.com?subject=Technical%20Problem%20Diagnosis"
+              className="btn primary"
+            >
+              Get Technical Help
+            </a>    
+
+          </div>
+
+        </div>
+
+      </section>
+
       {/* PROJECT */}
       <section id="project" className="section project-section">
 
@@ -332,7 +391,6 @@ function App() {
         </div>
 
       </section>
-
 
       {/* TECHNOLOGY */}
       <section id="technology" className="section">

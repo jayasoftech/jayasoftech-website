@@ -1,32 +1,32 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  html {
-    scroll-behavior: smooth;
-  }
+html {
+  scroll-behavior: smooth;
+}
 
-  body {
-      font-family:
-      Inter,
-      -apple-system,
-      BlinkMacSystemFont,
-      "Segoe UI",
-      sans-serif;
+body {
+  font-family:
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
 
-    background: #0b0f19;
-    color: #f5f7fb;
+  background: #0b0f19;
+  color: #f5f7fb;
 
-    line-height: 1.6;
-  }                 
+  line-height: 1.6;
+}
 
-  h1,
-  h2,
-  h3 {
-    color: #f5f7fb;
-  }
+h1,
+h2,
+h3 {
+  color: #f5f7fb;
+}
 
 a {
   color: inherit;
@@ -39,68 +39,83 @@ a {
 }
 
 
+/* =========================================================
+   NAVBAR
+   ========================================================= */
 
-  /* NAVBAR */
+.navbar {
+  position: sticky;
+  top: 0;
 
-  .navbar {
-    position: sticky;
-    top: 0;
+  z-index: 100;
 
-    z-index: 100;
+  background: rgba(11, 15, 25, 0.92);
 
-    background: rgba(11, 15, 25, 0.92);
+  border-bottom: 1px solid #202636;
 
-    border-bottom: 1px solid #202636;
+  backdrop-filter: blur(10px);
+}
 
-    backdrop-filter: blur(10px);
-  }
+.nav-container {
+  height: 72px;
 
-  .nav-container {
-    height: 72px;
+  display: flex;
 
-    display: flex;
+  align-items: center;
 
-    align-items: center;
+  justify-content: space-between;
+}
 
-    justify-content: space-between;
-  }
+.logo {
+  font-size: 1.5rem;
 
-  .logo {
-    font-size: 1.5rem;
+  font-weight: 800;
 
-    font-weight: 800;
+  letter-spacing: -0.5px;
+}
 
-    letter-spacing: -0.5px;
-  }
-
-  .logo span {
-    color: #6ea8fe;
-  }
-
-  /* DESKTOP NAVIGATION */
-
-  .desktop-nav {
-    display: flex;
-
-    align-items: center;
-
-    gap: 28px;
-  }
-
-  .desktop-nav a {
-    color: #aeb7c7;
-
-    font-size: 0.95rem;
-
-    transition: color 0.2s ease;
-  }
-
-  .desktop-nav a:hover {
-    color: #ffffff;
-  }
+.logo span {
+  color: #6ea8fe;
+}
 
 
-/* HERO */
+/* =========================================================
+   DESKTOP NAVIGATION
+   ========================================================= */
+
+.desktop-nav {
+  display: flex;
+
+  align-items: center;
+
+  gap: 28px;
+}
+
+.desktop-nav a {
+  color: #aeb7c7;
+
+  font-size: 0.95rem;
+
+  transition: color 0.2s ease;
+}
+
+.desktop-nav a:hover {
+  color: #ffffff;
+}
+
+
+/* =========================================================
+   MOBILE NAVIGATION
+   ========================================================= */
+
+.mobile-nav {
+  display: none;
+}
+
+
+/* =========================================================
+   HERO
+   ========================================================= */
 
 .hero {
   min-height: 680px;
@@ -161,7 +176,9 @@ a {
 }
 
 
-/* BUTTON */
+/* =========================================================
+   BUTTON
+   ========================================================= */
 
 .btn {
   display: inline-block;
@@ -196,7 +213,9 @@ a {
 }
 
 
-/* SECTIONS */
+/* =========================================================
+   SECTIONS
+   ========================================================= */
 
 .section {
   padding: 110px 0;
@@ -227,13 +246,14 @@ a {
 }
 
 
-/* SERVICES */
+/* =========================================================
+   SERVICES
+   ========================================================= */
 
 .services-grid {
   display: grid;
 
-  grid-template-columns:
-    repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 
   gap: 20px;
 }
@@ -247,11 +267,14 @@ a {
 
   border-radius: 10px;
 
-  transition: transform 0.2s ease, border-color 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease;
 }
 
 .service-card:hover {
   transform: translateY(-4px);
+
   border-color: #6ea8fe;
 }
 
@@ -274,7 +297,9 @@ a {
 }
 
 
-/* PROJECT */
+/* =========================================================
+   PROJECT
+   ========================================================= */
 
 .project-section {
   background: #0e1420;
@@ -283,8 +308,7 @@ a {
 .project-content {
   display: grid;
 
-  grid-template-columns:
-    1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 
   gap: 70px;
 
@@ -373,12 +397,15 @@ a {
 
 .arrow {
   color: #6ea8fe;
+
   padding: 8px;
+
   font-size: 1.2rem;
 }
 
 .architecture-deployment {
   margin-top: 30px;
+
   padding-top: 25px;
 
   border-top: 1px dashed #293246;
@@ -390,23 +417,27 @@ a {
   color: #6ea8fe;
 
   font-size: 0.7rem;
+
   font-weight: 700;
+
   letter-spacing: 1.5px;
 }
 
 .architecture-item.docker {
   border-color: #6ea8fe;
+
   background: #101a2c;
 }
 
 
-/* TECHNOLOGY */
+/* =========================================================
+   TECHNOLOGY
+   ========================================================= */
 
 .tech-grid {
   display: grid;
 
-  grid-template-columns:
-    repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 
   gap: 12px;
 }
@@ -424,7 +455,117 @@ a {
 }
 
 
-/* CONTACT */
+/* =========================================================
+   QUICK TECHNICAL HELP
+   ========================================================= */
+
+.quick-help-section {
+  background: #0b0f19;
+}
+
+.quick-help-card {
+  max-width: 750px;
+
+  margin: 0 auto;
+
+  padding: 40px;
+
+  background: #111725;
+
+  border: 1px solid #252d3d;
+
+  border-radius: 10px;
+
+  text-align: left;
+
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.quick-help-card:hover {
+  transform: translateY(-4px);
+
+  border-color: #6ea8fe;
+}
+
+.quick-help-card h3 {
+  font-size: 1.5rem;
+
+  margin-bottom: 15px;
+
+  color: #f5f7fb;
+}
+
+.quick-help-card > p {
+  color: #9ba5b6;
+
+  margin-bottom: 25px;
+}
+
+
+/* QUICK HELP FEATURE LIST */
+
+.quick-help-features {
+  list-style: none;
+
+  margin: 0 0 30px 0;
+
+  padding: 0;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 10px;
+
+  text-align: left;
+}
+
+.quick-help-features li {
+  display: flex;
+
+  align-items: flex-start;
+
+  color: #c7cfdd;
+
+  line-height: 1.5;
+
+  text-align: left;
+}
+
+.quick-help-features li::before {
+  content: "✓";
+
+  display: inline-block;
+
+  flex: 0 0 auto;
+
+  width: 20px;
+
+  margin-right: 4px;
+
+  color: #6ea8fe;
+
+  font-weight: 700;
+
+  text-align: left;
+}
+
+.quick-help-price {
+  color: #6ea8fe;
+
+  font-size: 1.2rem;
+
+  font-weight: 700;
+
+  margin-bottom: 25px;
+}
+
+
+/* =========================================================
+   CONTACT
+   ========================================================= */
 
 .contact-section {
   text-align: center;
@@ -449,7 +590,89 @@ a {
 }
 
 
-/* FOOTER */
+/* =========================================================
+   PROCESS
+   ========================================================= */
+
+.process-grid {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 15px;
+}
+
+.process-card {
+  padding: 30px;
+
+  background: #111725;
+
+  border: 1px solid #252d3d;
+
+  border-radius: 10px;
+
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.process-card:hover {
+  transform: translateY(-4px);
+
+  border-color: #6ea8fe;
+}
+
+.process-card span {
+  display: block;
+
+  color: #6ea8fe;
+
+  font-size: 0.8rem;
+
+  font-weight: 700;
+
+  margin-bottom: 25px;
+}
+
+.process-card h3 {
+  margin-bottom: 12px;
+
+  font-size: 1.2rem;
+}
+
+.process-card p {
+  color: #8e98aa;
+
+  font-size: 0.95rem;
+}
+
+
+/* =========================================================
+   PROJECT DETAILS
+   ========================================================= */
+
+.project-subtitle {
+  margin-top: 30px;
+
+  margin-bottom: 15px;
+
+  font-size: 1.1rem;
+}
+
+.project-features {
+  margin: 0 0 30px 20px;
+
+  color: #9ba5b6;
+}
+
+.project-features li {
+  margin-bottom: 8px;
+}
+
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
 
 footer {
   padding: 40px 0;
@@ -473,19 +696,22 @@ footer {
   font-size: 0.85rem;
 }
 
-  .mobile-nav {
-    display: none;
-  }
 
-/* MOBILE */
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
 @media (max-width: 800px) {
 
   /* DESKTOP NAVIGATION */
+
   .desktop-nav {
     display: none;
   }
 
+
   /* MOBILE NAVIGATION */
+
   .mobile-nav {
     display: flex;
 
@@ -518,6 +744,7 @@ footer {
     color: #ffffff;
   }
 
+
   /* HERO */
 
   .hero {
@@ -526,6 +753,7 @@ footer {
 
   .hero-content {
     max-width: 900px;
+
     width: 100%;
   }
 
@@ -547,17 +775,37 @@ footer {
     color: #6ea8fe;
   }
 
+
   /* SERVICES */
 
   .services-grid {
     grid-template-columns: 1fr;
   }
 
+
+  /* QUICK HELP */
+
+  .quick-help-card {
+    padding: 25px;
+  }
+
+  .quick-help-features {
+    gap: 10px;
+  }
+
+  .quick-help-features li::before {
+    width: 20px;
+
+    margin-right: 4px;
+  }
+
+
   /* PROJECT */
 
   .project-content {
     grid-template-columns: 1fr;
   }
+
 
   /* TECHNOLOGY */
 
@@ -567,19 +815,24 @@ footer {
 
   .tech-grid div {
     display: flex;
+
     flex-direction: column;
+
     gap: 6px;
   }
 
   .tech-grid strong {
     color: #f5f7fb;
+
     font-size: 1rem;
   }
 
   .tech-grid span {
     color: #7f899b;
+
     font-size: 0.85rem;
   }
+
 
   /* PROCESS */
 
@@ -589,31 +842,9 @@ footer {
 
   .process-card {
     padding: 30px;
-
-    background: #111725;
-
-    border: 1px solid #252d3d;
-
-    border-radius: 10px;
-
-    transition: transform 0.2s ease, border-color 0.2s ease;
-  }
-
-  .process-card:hover {
-    transform: translateY(-4px);
-
-    border-color: #6ea8fe;
   }
 
   .process-card span {
-    display: block;
-
-    color: #6ea8fe;
-
-    font-size: 0.8rem;
-
-    font-weight: 700;
-
     margin-bottom: 25px;
   }
 
@@ -628,6 +859,7 @@ footer {
 
     font-size: 0.95rem;
   }
+
 
   /* PROJECT DETAILS */
 
@@ -649,11 +881,17 @@ footer {
     margin-bottom: 8px;
   }
 
+
+  /* CONTACT */
+
+  .contact-content {
+    width: 100%;
+  }
+
+
   /* FOOTER */
 
   .footer-content {
     flex-direction: column;
   }
-
 }
-
