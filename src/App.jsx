@@ -233,11 +233,13 @@ function App() {
             </div>
 
             <a
-              href="mailto:jayasoftdigital9@gmail.com?subject=Technical%20Problem%20Diagnosis"
+              href="https://wa.me/6281268018828?text=Hello%20JayaSoft,%20I%20need%20technical%20help.%0A%0AProblem:%20%0A%0ATechnology:%20%0A%0AError%20message:%20"
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn primary"
             >
               Get Technical Help
-            </a>    
+            </a>   
 
           </div>
 
