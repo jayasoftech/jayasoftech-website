@@ -4,29 +4,34 @@ function App() {
   return (
     <div className="app">
 
-      {/* NAVBAR */}
-      <header className="navbar">
-        <div className="container nav-container">
+   {/* NAVBAR */}
+  <header className="navbar">
 
-          <div className="logo">
-            Jaya<span>Soft</span>
-          </div>
+    <div className="container nav-container">
 
-          <nav className="desktop-nav">
-            <a href="#services">Services</a>
-            <a href="#process">Process</a>
-            <a href="#project">Project</a>
-            <a href="#technology">Technology</a>
-            <a href="#contact">Contact</a>
-          </nav>
+      <div className="logo">
+        Jaya<span>Soft</span>
+      </div>
 
-          <button className="mobile-menu-button">
-            ☰
-          </button>
+      <nav className="desktop-nav">
+        <a href="#services">Services</a>
+        <a href="#process">Process</a>
+        <a href="#project">Project</a>
+        <a href="#technology">Technology</a>
+        <a href="#contact">Contact</a>
+      </nav>
 
-        </div>
-      </header>
+    </div>
 
+    <nav className="mobile-nav">
+      <a href="#services">Services</a>
+      <a href="#process">Process</a>
+      <a href="#project">Project</a>
+      <a href="#technology">Technology</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+  </header>
 
       {/* HERO */}
       <section className="hero">
