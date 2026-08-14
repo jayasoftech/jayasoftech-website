@@ -12,13 +12,17 @@ function App() {
             Jaya<span>Soft</span>
           </div>
 
-          <nav>
+          <nav className="desktop-nav">
             <a href="#services">Services</a>
             <a href="#process">Process</a>
             <a href="#project">Project</a>
             <a href="#technology">Technology</a>
             <a href="#contact">Contact</a>
           </nav>
+
+          <button className="mobile-menu-button">
+            ☰
+          </button>
 
         </div>
       </header>
