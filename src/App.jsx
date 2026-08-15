@@ -13,9 +13,12 @@ function App() {
           Jaya<span>Soft</span>
         </div>
 
+        {/* DESKTOP NAVIGATION */}
         <nav className="desktop-nav">
           <a href="#services">Services</a>
           <a href="#process">Process</a>
+          <a href="#quick-help">Quick Help</a>
+          <a href="#pricing">Pricing</a>
           <a href="#project">Project</a>
           <a href="#technology">Technology</a>
           <a href="#contact">Contact</a>
@@ -23,9 +26,12 @@ function App() {
 
       </div>
 
+      {/* MOBILE NAVIGATION */}
       <nav className="mobile-nav">
         <a href="#services">Services</a>
         <a href="#process">Process</a>
+        <a href="#quick-help">Quick Help</a>
+        <a href="#pricing">Pricing</a>
         <a href="#project">Project</a>
         <a href="#technology">Technology</a>
         <a href="#contact">Contact</a>
@@ -236,10 +242,120 @@ function App() {
               href="https://wa.me/6281268018828?text=Hello%20JayaSoft,%20I%20need%20technical%20help.%0A%0AProblem:%20%0A%0ATechnology:%20%0A%0AError%20message:%20"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn primary"
+              className="btn primary pricing-button"
             >
               Get Technical Help
             </a>   
+
+          </div>
+
+        </div>
+
+      </section>
+
+      {/* SERVICES PRICING */}
+      <section id="pricing" className="section services-section">
+        <div className="container">
+
+          <div className="section-heading">
+
+            <p className="eyebrow">
+              OTHER SERVICES
+            </p>
+
+            <h2>
+              Need more than a diagnosis?
+            </h2>
+
+            <p>
+              Once the problem is identified, JayaSoft can also help
+              fix the application or deploy it properly.
+            </p>
+
+          </div>
+
+          <div className="pricing-grid">
+
+            {/* BUG FIX */}
+
+            <div className="pricing-card">
+
+              <p className="pricing-number">
+                01
+              </p>
+
+              <h3>
+                Bug Fix & Troubleshooting
+              </h3>
+
+              <div className="pricing-price">
+                Starting from Rp300.000
+              </div>
+
+              <p className="pricing-description">
+                Practical troubleshooting and implementation
+                for application errors and technical problems.
+              </p>
+
+              <ul className="pricing-features">
+                <li>Java / Spring Boot</li>
+                <li>React.js</li>
+                <li>PostgreSQL / SQL</li>
+                <li>Hibernate / JPA</li>
+                <li>REST API problems</li>
+              </ul>
+
+              <a
+                href="https://wa.me/628XXXXXXXXXX?text=Hello%20JayaSoft,%20I%20need%20Bug%20Fix%20%26%20Troubleshooting.%0A%0ATechnology:%20%0AProblem:%20%0AError%20message%2Flog:%20"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn primary pricing-button"
+              >
+                Contact via WhatsApp
+              </a>
+
+            </div>
+
+
+            {/* DOCKER / DEPLOYMENT */}
+
+            <div className="pricing-card">
+
+              <p className="pricing-number">
+                02
+              </p>
+
+              <h3>
+                Docker & Deployment
+              </h3>
+
+              <div className="pricing-price">
+                Starting from Rp500.000
+              </div>
+
+              <p className="pricing-description">
+                Get your application properly configured,
+                containerized, and deployed.
+              </p>
+
+              <ul className="pricing-features">
+                <li>Docker configuration</li>
+                <li>PostgreSQL deployment</li>
+                <li>Application deployment</li>
+                <li>Docker troubleshooting</li>
+                <li>Deployment troubleshooting</li>
+              </ul>
+
+              <a
+                href="https://wa.me/628XXXXXXXXXX?text=Hello%20JayaSoft,%20I%20need%20Docker%20%26%20Deployment%20assistance.%0A%0AApplication:%20%0ADeployment%20problem:%20%0ADocker%2FPostgreSQL%20details:%20"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn primary pricing-button"
+              >
+                Contact via WhatsApp
+              </a>
+
+            </div>
 
           </div>
 
