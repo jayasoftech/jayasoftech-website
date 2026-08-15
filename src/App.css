@@ -463,6 +463,12 @@ a {
   background: #0b0f19;
 }
 
+.quick-help-heading {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .quick-help-card {
   max-width: 750px;
 

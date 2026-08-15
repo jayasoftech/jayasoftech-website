@@ -197,7 +197,7 @@ function App() {
 
         <div className="container">
 
-          <div className="section-heading">
+          <div className="section-heading quick-help-heading">
 
             <p className="eyebrow">
               NEED HELP NOW?
@@ -239,10 +239,10 @@ function App() {
             </div>
 
             <a
-              href="https://wa.me/6281268018828?text=Hello%20JayaSoft,%20I%20need%20technical%20help.%0A%0AProblem:%20%0A%0ATechnology:%20%0A%0AError%20message:%20"
+              href="https://wa.me/6281268018828?text=Hello%20JayaSoft,%20I%20need%20Technical%20Problem%20Diagnosis.%0A%0AProblem:%20%0A%0ATechnology:%20%0A%0AError%20message%20or%20log:%20"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn primary pricing-button"
+              className="btn primary"
             >
               Get Technical Help
             </a>   
@@ -306,7 +306,7 @@ function App() {
               </ul>
 
               <a
-                href="https://wa.me/628XXXXXXXXXX?text=Hello%20JayaSoft,%20I%20need%20Bug%20Fix%20%26%20Troubleshooting.%0A%0ATechnology:%20%0AProblem:%20%0AError%20message%2Flog:%20"
+                href="https://wa.me/6281268018828?text=Hello%20JayaSoft,%20I%20need%20Bug%20Fix%20%26%20Troubleshooting.%0A%0ATechnology:%20%0A%0AProblem:%20%0A%0AError%20message%20or%20log:%20%0A%0AWhat%20I%20have%20tried:%20"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn primary pricing-button"
@@ -347,7 +347,7 @@ function App() {
               </ul>
 
               <a
-                href="https://wa.me/628XXXXXXXXXX?text=Hello%20JayaSoft,%20I%20need%20Docker%20%26%20Deployment%20assistance.%0A%0AApplication:%20%0ADeployment%20problem:%20%0ADocker%2FPostgreSQL%20details:%20"
+                href="https://wa.me/6281268018828?text=Hello%20JayaSoft,%20I%20need%20Docker%20%26%20Deployment%20assistance.%0A%0AApplication:%20%0A%0ADeployment%20problem:%20%0A%0ADocker%20details:%20%0A%0APostgreSQL%20details:%20"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn primary pricing-button"
